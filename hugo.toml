@@ -46,6 +46,7 @@ defaultContentLanguage = "en"
   [languages.en]
     languageName = "English"
     weight = 1
+    contentDir = "content/en"
     title = "Yegor Digest"
     [languages.en.params.homeInfoParams]
       Title = "Yegor Digest"
