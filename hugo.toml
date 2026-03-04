@@ -1,0 +1,29 @@
+baseURL = "https://yegor.pojoni.dev/"
+languageCode = "en-us"
+title = "Yegor Digest"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 10
+
+[params]
+  author = "Christian Pojoni"
+  description = "Yegor Bugayenko video summaries, translated and distilled."
+  defaultTheme = "dark"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+[params.homeInfoParams]
+  Title = "Yegor Digest"
+  Content = "Summaries and key insights from Yegor Bugayenko's YouTube channel, translated from Russian and distilled for engineers who don't speak Russian but love good takes."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/5queezer"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
