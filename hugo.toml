@@ -1,13 +1,12 @@
 baseURL = "https://5queezer.github.io/yegor-blog/"
-languageCode = "en-us"
-title = "Yegor Digest"
 theme = "PaperMod"
+defaultContentLanguage = "en"
+
 [pagination]
   pagerSize = 10
 
 [params]
   author = "Christian Pojoni"
-  description = "Yegor Bugayenko video summaries, translated and distilled."
   defaultTheme = "dark"
   ShowReadingTime = true
   ShowShareButtons = false
@@ -16,10 +15,6 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   ShowToc = true
 
-[params.homeInfoParams]
-  Title = "Yegor Digest"
-  Content = "Summaries and key insights from Yegor Bugayenko's YouTube channel, translated from Russian and distilled for engineers who don't speak Russian but love good takes."
-
 [[params.socialIcons]]
   name = "github"
   url = "https://github.com/5queezer"
@@ -27,3 +22,28 @@ theme = "PaperMod"
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = "Yegor Digest"
+    [languages.en.params.homeInfoParams]
+      Title = "Yegor Digest"
+      Content = "Summaries and key insights from Yegor Bugayenko's YouTube channel, translated from Russian and distilled for engineers who love good takes."
+
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 2
+    title = "Yegor Digest"
+    [languages.de.params.homeInfoParams]
+      Title = "Yegor Digest"
+      Content = "Zusammenfassungen und Erkenntnisse aus Yegor Bugayenkos YouTube-Kanal, aus dem Russischen übersetzt."
+
+  [languages.es]
+    languageName = "Español"
+    weight = 3
+    title = "Yegor Digest"
+    [languages.es.params.homeInfoParams]
+      Title = "Yegor Digest"
+      Content = "Resúmenes e ideas del canal de YouTube de Yegor Bugayenko, traducidos del ruso para ingenieros con buen gusto."
