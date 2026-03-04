@@ -54,6 +54,7 @@ defaultContentLanguage = "en"
   [languages.de]
     languageName = "Deutsch"
     weight = 2
+    contentDir = "content/de"
     title = "Yegor Digest"
     [languages.de.params.homeInfoParams]
       Title = "Yegor Digest"
@@ -62,6 +63,7 @@ defaultContentLanguage = "en"
   [languages.es]
     languageName = "Español"
     weight = 3
+    contentDir = "content/es"
     title = "Yegor Digest"
     [languages.es.params.homeInfoParams]
       Title = "Yegor Digest"
@@ -70,6 +72,7 @@ defaultContentLanguage = "en"
   [languages.ru]
     languageName = "Русский"
     weight = 4
+    contentDir = "content/ru"
     title = "Yegor Digest"
     [languages.ru.params.homeInfoParams]
       Title = "Yegor Digest"
