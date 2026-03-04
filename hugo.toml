@@ -2,6 +2,9 @@ baseURL = "https://5queezer.github.io/yegor-blog/"
 theme = "PaperMod"
 defaultContentLanguage = "en"
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [pagination]
   pagerSize = 10
 
@@ -14,10 +17,26 @@ defaultContentLanguage = "en"
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowToc = true
+  ShowRelatedPosts = true
+  comments = true
+
+  [params.cover]
+    linkFullImages = true
+    responsiveImages = false
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    minMatchCharLength = 2
+    keys = ["title", "permalink", "summary", "content"]
 
 [[params.socialIcons]]
   name = "github"
   url = "https://github.com/5queezer"
+
+[[params.socialIcons]]
+  name = "rss"
+  url = "/yegor-blog/index.xml"
 
 [taxonomies]
   tag = "tags"
