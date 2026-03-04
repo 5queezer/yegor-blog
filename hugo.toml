@@ -66,3 +66,11 @@ defaultContentLanguage = "en"
     [languages.es.params.homeInfoParams]
       Title = "Yegor Digest"
       Content = "Resúmenes e ideas del canal de YouTube de Yegor Bugayenko, traducidos del ruso para ingenieros con buen gusto."
+
+  [languages.ru]
+    languageName = "Русский"
+    weight = 4
+    title = "Yegor Digest"
+    [languages.ru.params.homeInfoParams]
+      Title = "Yegor Digest"
+      Content = "Краткое изложение видео Егора Бугаенко — на языке оригинала."
