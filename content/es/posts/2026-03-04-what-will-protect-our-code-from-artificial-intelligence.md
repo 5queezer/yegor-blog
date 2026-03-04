@@ -1,12 +1,12 @@
 ---
-title: "What will protect our code from artificial intelligence?"
-date: 2026-03-04T18:35:00Z
+title: "¿Qué protegerá nuestro código de la inteligencia artificial?"
+date: 2026-03-04T18:45:00Z
 tags:
   - "yegor"
   - "software-engineering"
 cover:
   image: "https://img.youtube.com/vi/GPJ-LfRpxM4/maxresdefault.jpg"
-  alt: "What will protect our code from artificial intelligence?"
+  alt: "¿Qué protegerá nuestro código de la inteligencia artificial?"
   relative: false
 draft: false
 ---
@@ -14,17 +14,15 @@ draft: false
 > **Watch:** [https://www.youtube.com/watch?v=GPJ-LfRpxM4](https://www.youtube.com/watch?v=GPJ-LfRpxM4)
 
 ## Resumen
-Yegor Bugayenko ofrece una visión provocadora sobre cómo la Inteligencia Artificial impactará el trabajo del programador. Su temor no radica en el despido masivo, sino en la convivencia diaria con la IA en el código. Para "protegernos" de los posibles efectos negativos de esta colaboración, propone un retorno a los fundamentos de la calidad del software, centrándose en tres áreas: errores (bugs), seguridad y complejidad.
+Yegor Bugayenko reflexiona sobre el futuro de la programación ante el avance de la Inteligencia Artificial. Su temor no es que la IA despida a los programadores, sino que se convierta en un compañero constante en la escritura de código. Para enfrentar este escenario, Bugayenko propone centrarse en resolver los tres problemas que más afectan a la profesión: los defectos (bugs), las brechas de seguridad y la complejidad.
 
-Bugayenko sostiene que los defectos son una parte intrínseca del desarrollo. Basándose en métricas clásicas, explica que lo normal es encontrar entre 10 y 20 errores por cada mil líneas de código. Su propuesta es cambiar la actitud hacia ellos: los errores deben ser el "combustible" del equipo. Cuantos más errores se detecten y registren internamente, menos llegarán al usuario final. Asimismo, aborda las brechas de seguridad como algo inevitable que requiere una gestión proactiva.
-
-El punto culminante es su crítica a la complejidad. Según Bugayenko, el "código sucio" y los patrones complejos son síntomas de un mal programador. Afirma rotundamente que la excelencia técnica no consiste en escribir código que nadie entienda, sino en lograr una simplicidad tal que incluso un programador principiante pueda comprender la lógica. En el contexto de la IA, esta simplicidad es nuestra mejor defensa: un código simple es más fácil de validar y menos propenso a ser arruinado por las sugerencias automáticas de una máquina, evitando que la IA acelere la creación de deuda técnica.
+El autor sostiene que los errores son una parte intrínseca del desarrollo; históricamente se producen entre 10 y 20 errores por cada 1,000 líneas de código. En lugar de frustrarse, los equipos deben ver los errores como el "combustible" que impulsa la mejora del producto. En cuanto a la seguridad, advierte sobre prácticas mediocres, como la concatenación de SQL, que facilitan ataques. Sin embargo, su crítica más feroz se dirige a la complejidad innecesaria. Bugayenko afirma que el código difícil de entender no es un logro, sino una prueba de falta de profesionalismo. Un buen programador es aquel que escribe código simple y limpio, accesible incluso para desarrolladores principiantes. La tesis implícita es que la simplicidad y la disciplina técnica son las mejores defensas para mantener el control sobre el software cuando la IA comience a generar grandes volúmenes de código.
 
 ## Ideas Clave
-- "Tengo miedo a la IA... no porque me vaya a despedir, sino porque se sentará a mi lado a programar".
-- "Los errores son el combustible que hace funcionar al equipo de desarrollo; aceptarlos es parte del proceso".
-- "El código complejo es señal de un mal programador; el buen programador escribe código sencillo".
-- "Si crees que el código difícil de entender es un logro, no has entendido tu profesión".
+- "Tengo miedo de la IA... no porque me vaya a despedir, sino porque se sentará a mi lado y programará."
+- "Los errores son el combustible con el que funciona el equipo de desarrollo."
+- "El código complejo es un signo de un mal programador."
+- "El buen programador escribe código sencillo que entienden él, sus colegas e incluso los programadores junior."
 
 ## Relevancia: 5/5
-Muy relevante para la gestión de equipos y la definición de estándares de codificación en una era donde la generación automática de código es cada vez más común.
+Muy alta. El contenido aborda la filosofía del "Clean Code", la gestión de la calidad y la ética profesional, elementos críticos para cualquier equipo de ingeniería de software moderno.
